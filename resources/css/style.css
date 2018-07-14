@@ -1,0 +1,60 @@
+/*Navigation*/
+.navbar { justify-content: flex-end;}
+a {color:white;
+  padding-left: 10px;}
+
+/*Header*/
+  .jumbotron{
+    background-color: #c1c1c1;
+    display: flex;
+  }
+
+/*Skills*/
+section {
+  display: flex;
+  flex-direction: column;
+
+}
+section .section-title {
+  display: inline-flex;
+  justify-content: center;
+}
+section .svg {
+  display: inline-flex;
+  justify-content: center;}
+  svg {width: 75%;
+        height: 75%;}
+  section .svg .language{
+    display: inline-flex;
+  }
+  section .svg .language span {
+  visibility: hidden;
+}
+ section .svg .language:hover span{
+  visibility: visible;
+
+}
+
+/*Projects*/
+div .sample {
+  height: 80%;
+  width: 100%;
+}
+
+.plist {
+  background-color: #e9ecef;
+}
+
+.plist .plist-title {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width:360px){
+  .jumbotron img {
+    width: 50%;
+  }
+  section .svg .language span {
+  visibility: visible;
+}
+}
