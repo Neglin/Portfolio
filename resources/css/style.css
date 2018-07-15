@@ -9,10 +9,10 @@
     display: flex;
   }
   .jumbotron img{
-    border-top: double #007bff 20px;
+    /*border-top: solid black 20px;*/
     border-right: double black 20px;
     border-bottom: double black 20px;
-    border-radius: 0 0 25px 100px;
+    border-radius: 0 0 100px 100px;
   }
   .jumbotron div{
     margin-left: 20px;
