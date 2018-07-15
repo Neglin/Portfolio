@@ -1,12 +1,21 @@
 /*Navigation*/
 .navbar { justify-content: flex-end;}
-a {color:white;
+.navbar a {color:white;
   padding-left: 10px;}
 
 /*Header*/
   .jumbotron{
     background-color: #c1c1c1;
     display: flex;
+  }
+  .jumbotron img{
+    border-top: double #007bff 20px;
+    border-right: double black 20px;
+    border-bottom: double black 20px;
+    border-radius: 0 0 25px 100px;
+  }
+  .jumbotron div{
+    margin-left: 20px;
   }
 
 /*Skills*/
@@ -49,7 +58,7 @@ div .sample {
   display: flex;
   justify-content: center;
 }
-
+/*Media Queries*/
 @media only screen and (max-width:360px){
   .jumbotron img {
     width: 50%;
