@@ -1,12 +1,18 @@
+body {
+  background-color: #e9ecef;
+}
 /*Navigation*/
-.navbar { justify-content: flex-end;}
+.navbar { justify-content: flex-end;
+background-color: #e9ecef;}
 .navbar a {color:white;
   padding-left: 10px;}
 
 /*Header*/
   .jumbotron{
-    background-color: #c1c1c1;
+    background:linear-gradient(rgb(21, 114, 182),rgb(193, 193, 193),rgb(228, 77, 38));
     display: flex;
+    margin-bottom: 0;
+    border-radius: 0px;
   }
   .jumbotron img{
     /*border-top: solid black 20px;*/
@@ -24,13 +30,22 @@ section {
   flex-direction: column;
 
 }
+.skills{
+  background: linear-gradient(rgb(228, 77, 38),rgb(240, 219, 79),rgb(21, 114, 182));
+
+}
 section .section-title {
   display: inline-flex;
-  justify-content: center;
-}
+  justify-content:center;
+  }
+  .section-title h1 {
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+  }
 section .svg {
   display: inline-flex;
-  justify-content: center;}
+  justify-content: center;
+  }
   svg {width: 75%;
         height: 75%;}
   section .svg .language{
@@ -50,9 +65,7 @@ div .sample {
   width: 100%;
 }
 
-.plist {
-  background-color: #e9ecef;
-}
+
 
 .plist .plist-title {
   display: flex;
@@ -66,4 +79,23 @@ div .sample {
   section .svg .language span {
   visibility: visible;
 }
+}
+/*About Me */
+.aboutme   {
+  background:linear-gradient(rgba(193, 193, 193,1),rgba(193, 193, 193,0));
+}
+.aboutme p { text-indent: 25px;}
+#contactme {
+  background:linear-gradient(rgba(240, 219, 79,1),rgba(240, 219, 79,0))
+
+}
+/*Footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(33, 37, 41);
+  color:white;
+}
+footer .fat {
+  font-size: 20px;
 }
