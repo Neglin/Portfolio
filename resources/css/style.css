@@ -72,12 +72,16 @@ div .sample {
   justify-content: center;
 }
 /*Media Queries*/
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
   .jumbotron img {
     width: 50%;
   }
   section .svg .language span {
   visibility: visible;
+  line-height: 1rem;
+}
+.section-title h1{
+  letter-spacing: 0;
 }
 }
 /*About Me */
